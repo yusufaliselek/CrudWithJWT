@@ -73,7 +73,7 @@ namespace Server.Service.Services
 
             var tokenDto = new TokenDto
             {
-                AccesToken = token,
+                AccessToken = token,
                 RefreshToken = CreateRefreshToken(),
                 AccessTokenExpiration = accessTokenExpiration,
                 RefreshTokenExpiration = refreshTokenExpiration

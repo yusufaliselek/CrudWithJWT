@@ -8,7 +8,7 @@ namespace Server.Core.DTOs
 {
     public class TokenDto
     {
-        public string AccesToken { get; set; }
+        public string AccessToken { get; set; }
 
         public DateTime AccessTokenExpiration { get; set; }
 
